@@ -1,0 +1,81 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "kind",
+    "type": "STRING"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "level",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "internalWebPropertyId",
+        "type": "INT64"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "name",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "websiteUrl",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "id",
+        "type": "STRING"
+      },
+      {
+        "fields": [
+          {
+            "mode": "NULLABLE",
+            "name": "type",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "name",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "id",
+            "type": "INT64"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "kind",
+            "type": "STRING"
+          }
+        ],
+        "mode": "REPEATED",
+        "name": "profiles",
+        "type": "RECORD"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "kind",
+        "type": "STRING"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "webProperties",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "id",
+    "type": "INT64"
+  }
+]

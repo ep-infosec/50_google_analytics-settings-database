@@ -1,0 +1,8 @@
+google-api-python-client
+oauth2client
+google-cloud-bigquery
+google-auth
+google-analytics-admin
+google-auth-oauthlib
+pyhumps
+protobuf
